@@ -1,14 +1,16 @@
-# Instructions
+# How to get started
 
-## Dump
+## Make sure you have the following dependencies installed
+- docker
+- docker compose
+- make
 
-Place the dump.sql file in the root of the project.
+## Make sure to have the dump.sql file
+Already in the root of the project (but maybe the professor will change it)
 
 ## Initialize the database
-
-- it start a postgresql container
-- it will import the dump.sql file
-
 ```bash
 make init
 ```
+
+It will start the database and import the dump.sql file
